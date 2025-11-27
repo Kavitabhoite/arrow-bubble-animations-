@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+}
+.bubble-wrapper {
+    z-index: 99;
+}
+.box1, .box2, .box3, .box4, .box5 {
+    position: fixed;
+    border-radius: 50%;
+    background-color: rgb(119, 205, 255);
+    pointer-events: none;
+    z-index: 99;
+}
+.box1 {
+    height: 50px;
+    width: 50px;
+    transition: 0.1s ease-out;
+}
+.box2 {
+    height: 40px;
+    width: 40px;
+    transition: 0.2s ease-out;
+}
+.box3 {
+    height: 30px;
+    width: 30px;
+    transition: 0.3s ease-out;
+}
+.box4 {
+    height: 20px;
+    width: 20px;
+    transition: 0.4s ease-out;
+}
+.box5 {
+    height: 10px;
+    width: 10px;
+    transition: 0.5s ease-out;
+}
